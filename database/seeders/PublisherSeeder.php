@@ -21,14 +21,14 @@ class PublisherSeeder extends Seeder
                 'address' => 'New York, NY',
                 'phone' => '212-782-9000',
                 'email' => 'penguinrandomhouse@gmail.com',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Penguin_Random_House_Logo.svg/1200px-Penguin_Random_House_Logo.svg.png'
+                'image' => 'https://www.the-scheme.co.uk/wp-content/uploads/2018/06/PRH-UK-LOGO1.png'
             ],
             [
                 'name' => 'HarperCollins',
                 'address' => 'New York, NY',
                 'phone' => '212-207-7000',
                 'email' => 'harpercolins@gmail.com',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/HarperCollins_Logo.svg/1200px-HarperCollins_Logo.svg.png'
+                'image' => 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/rxzdnwsn8vmjrm5tzc4e'
             ]
         ];
 
