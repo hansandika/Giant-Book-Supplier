@@ -15,11 +15,11 @@ class BookController extends Controller
                 $query->where('name', $request->category);
             })->get();
         }
-        return view('books.index', compact('books'));
+        return view('book.index', compact('books'));
     }
 
     public function show(Book $book)
     {
-        return view('books.show', compact('book'));
+        return view('book.show', compact('book'));
     }
 }

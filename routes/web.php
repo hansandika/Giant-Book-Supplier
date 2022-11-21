@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [BoookController::class, 'index'])->name('books.index');
+Route::get('/', [BookController::class, 'index'])->name('books.index');
 Route::get("/books/categories", [BookController::class, 'index'])->name('books.categories');
 Route::get('/books/{book}', [BookController::class, 'show'])->name('books.show');
 Route::get("/publisher", [PublisherController::class, 'index'])->name('publisher.index');
