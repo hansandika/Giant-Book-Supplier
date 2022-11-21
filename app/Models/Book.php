@@ -8,12 +8,17 @@ use Illuminate\Database\Eloquent\Model;
 class Book extends Model
 {
     use HasFactory;
-    protected $with = ['publisher'];
     protected $fillable = ['title', 'author', 'publisher_id', 'year', 'image', 'synopsis'];
+
+
+    public function getImageAttribute()
+    {
+        return asset('storage/books/' . $this->attributes['image']);
+    }
 
     public function publisher()
     {
-        return $this->belongsTo(Publisher::class);
+        return $this->BelongsTo(Publisher::class);
     }
 
     public function categories()

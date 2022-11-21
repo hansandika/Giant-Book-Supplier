@@ -23,6 +23,7 @@ class BookController extends Controller
 
     public function show(Book $book)
     {
+        $book = $book->with(["publisher", 'categories'])->first();
         return view('books.show', compact('book'));
     }
 }

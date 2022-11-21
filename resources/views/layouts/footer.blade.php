@@ -9,7 +9,7 @@
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="{{ route('products.index') }}" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="{{ route('books.index') }}" class="nav-link px-2 text-muted">Home</a></li>
         <li class="nav-item"><a href="{{ route('publishers.index') }}" class="nav-link px-2 text-muted">Publisher</a>
         </li>
         <li class="nav-item"><a href="{{ route('contacts.index') }}" class="nav-link px-2 text-muted">Contact</a></li>
