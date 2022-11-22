@@ -11,6 +11,11 @@
             </button>
         </form>
         <div class="w-full bg-white mt-4">
+            @if (Request::has('search'))
+                <div style="background-color : rgb(247, 247, 247); height:40px;"
+                    class="p-4 d-flex align-items-center fw-semibold">Search Results
+                </div>
+            @endif
             <div class="row gap-2">
                 @forelse ($publishers as $publisher)
                     <div class="col-sm-3 p-3" style="width: 250px;height: 330px">
